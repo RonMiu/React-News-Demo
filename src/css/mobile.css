@@ -1,0 +1,111 @@
+html{
+  font-size: 50px;
+}
+#mobile{
+  flex:1;
+  background: #f6f6f6;
+}
+#mobile header{
+  border-bottom: 1px solid #2db7f5;
+}
+#mobile header img{
+  height: 50px;
+  padding-left: 15px;
+}
+#mobile header>span{
+  font-size: 33px;
+  vertical-align: top;
+  padding-left: 10px;
+  color: #2db7f5;
+}
+#mobile header .logout{
+  float: right;
+  margin-top: 0.3rem;
+  margin-right: 0.3rem;
+}
+#mobile header .logout i{
+  float: left;
+  color: #2db7f5;
+  font-size: 0.5rem;
+  margin-right: 0.1rem;
+}
+#mobile header .logout span{
+  float: left;
+  font-size: 16px;
+  color: #f52d5a;
+}
+.ant-tabs-bar{
+  margin-bottom: 0px!important;
+}
+.ant-row{
+  margin-top: 10px!important;
+}
+.m_ariticle{
+  box-sizing: border-box;
+  width: 95%;
+  height: 80px;
+  margin:0px 10px 8px 10px;
+  border-bottom: 1px dashed red;
+  overflow: hidden;
+  position: relative;
+}
+.m_ariticle_img{
+  width: 100px;
+  float: left;
+}
+.m_ariticle_img img{
+  width: 100%;
+}
+.m_ariticle_info{
+  color: rgba(0,0,0,0.65);
+  font-size: 16px;
+  padding-left: 110px;
+}
+.m_ariticle_desc{
+  padding-left: 110px;
+  position: absolute;
+  bottom: 5px;
+}
+.m_ariticle_desc .m_ariticle_channel{
+  display: inline-block;
+  padding:0 3px;
+  border-radius: 3px;
+  color: red;
+  margin-right: 5px;
+  border: 1px dotted red;
+  background: pink;
+}
+.m_ariticle_desc .m_ariticle_desc_l{
+  color: #ccc;
+}
+.ucmobileList .articleContainer{
+  padding:0px 5px 5px 5px;
+}
+.ucmobileList .articleContainer .article-title .title{
+  font-size: 18px;
+  text-align: center;
+}
+.ucmobileList .articleContainer .article-title .article-src-time{
+  font-size: 12px;
+}
+.ucmobileList .articleContainer #content p{
+  font-size: 12px;
+  line-height: 20px;
+}
+.ucmobileList .articleContainer #content figure{
+  width: 250px;
+}
+.ucmobileList .comment .ant-card-head{
+}
+.ucmobileList .comment .ant-card-body{
+  padding: 12px 24px;
+}
+
+.mobileToTop{
+  right: 5px!important;
+  bottom: 20px!important;
+}
+.tloader-footer .tloader-btn,
+.tloader-loading {
+  line-height: 0.9rem!important;
+}
